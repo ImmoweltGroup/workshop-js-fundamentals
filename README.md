@@ -18,7 +18,7 @@ npm install
 npm start
 ```
 
-This will clone the repository, install all dependencies and open the workshop examples in your Browser.
+This will clone the repository, install all dependencies and open the workshop examples in your Browser. Navigate to the `src/` folder in your opened Browser tab and start taking a look at all of the examples provided.
 **Note that we currently only support Google Chrome latest for this workshop.**
 
 ## Slides
