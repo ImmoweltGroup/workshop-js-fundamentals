@@ -8,9 +8,13 @@
 ```sh
 git clone https://github.com/ImmoweltGroup/workshop-js-fundamentals.git
 cd workshop-js-fundamentals
+nvm i
 npm i
 npm start
 ```
+
+This will cone the repository, install all dependencies and open the workshop examples in your Browser.
+**Note that we currently only support Google Chrome latest for this workshop.**
 
 ## Slides
 * [Slides in German](https://docs.google.com/presentation/d/1DbRa1Pqnb1ymTz5emddocwL_V8wqJHqK5hT-2khrmaQ/edit?usp=sharing)
