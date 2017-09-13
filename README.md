@@ -4,6 +4,11 @@
 
 > The introduction workshop to get up and running in modern JavaScript development.
 
+## Prerequisites
+* A clean installation without a global Node/NPM (we will use NVM so having Node pre-installed might cause problems).
+* [Git](https://git-scm.com/book/en/v2/Getting-Started-Installing-Git)
+* [NVM (Node Version Manager)](https://github.com/creationix/nvm#installation)
+
 ## Getting started
 ```sh
 git clone https://github.com/ImmoweltGroup/workshop-js-fundamentals.git
