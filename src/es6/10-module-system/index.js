@@ -14,3 +14,12 @@ import * as constants from './constants.js';
 
 console.log(constants.foo);
 console.log(constants.baz);
+
+//
+// A proposal is currently in process that will allows you to load files asynchronously.
+// @see https://github.com/tc39/proposal-dynamic-import
+//
+// import('./anotherFile.js')
+//   .then(module => console.log(module))
+//   .catch(console.error);
+//

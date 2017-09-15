@@ -1,7 +1,7 @@
 const load = (function() {
   // Function which returns a function: https://davidwalsh.name/javascript-functions
   function _load(tag) {
-    return function(url) {
+    return function(url, type) {
       // This promise will be used by Promise.all to determine success or failure
       return new Promise(function(resolve, reject) {
         var element = document.createElement(tag);
@@ -20,9 +20,12 @@ const load = (function() {
         switch (tag) {
           case 'script':
             element.async = true;
+
+            element.setAttribute('type', type || 'text/javascript');
+
             break;
           case 'link':
-            element.type = 'text/css';
+            element.type = type || 'text/css';
             element.rel = 'stylesheet';
             attr = 'href';
             parent = 'head';
@@ -45,28 +48,22 @@ const load = (function() {
 Promise.all([
   load.js('/node_modules/codemirror/lib/codemirror.js'),
   load.css('/node_modules/codemirror/lib/codemirror.css'),
-  load.css('/node_modules/codemirror/theme/monokai.css')
+  load.css('/node_modules/codemirror/theme/monokai.css'),
+  load.css('/src/style.css')
 ])
   .then(() => load.js('/node_modules/codemirror/mode/javascript/javascript.js'))
   .then(() => init())
   .catch(console.error);
 
 function init() {
-  const style = document.createElement('style');
+  const src = window.location.href + 'index.js';
+  const playground = document.createElement('div');
 
-  style.innerHTML = `
-body {
-  margin: 0;
-}
-.CodeMirror {
-  min-height: 100vh;
-  font-size: 16px;
-}
-  `;
+  playground.setAttribute('id', 'playground');
 
-  document.head.appendChild(style);
+  document.body.appendChild(playground);
 
-  Promise.all([load.js('./index.js'), fetch('./index.js')])
+  Promise.all([load.js(src, 'module'), fetch(src)])
     .then(([emptyRes, response]) => response.text())
     .then(text => {
       return window.CodeMirror(document.body, {
