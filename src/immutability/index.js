@@ -1,11 +1,15 @@
 let str1 = 'foo';
-let str2 = str1.slice(0, 2);
+let str2 = str1;
+
+str2 = str2 + ' bar';
 
 console.log('value of "str1" is: ', str1);
 console.log('value of "str2" is: ', str2);
 
 let arr1 = ['foo'];
-let arr2 = arr1.push('bar');
+let arr2 = arr1;
+
+arr2 = arr2.push('bar');
 
 console.log('value of "arr1" is: ', arr1);
 console.log('value of "arr2" is: ', arr2);
