@@ -2,6 +2,8 @@
 // Defining a new Class is relatively simple, the constructor is
 // optional and if added will be executed upon initialization.
 //
+// Note: Specifying functions inside constructors is an Anti-Pattern, this was done solely for demonstration pruposes!
+//
 class Foo {
   constructor() {
     this.foo = 'foo';
