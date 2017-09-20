@@ -48,7 +48,7 @@ const load = (function() {
 Promise.all([
   load.js('/node_modules/codemirror/lib/codemirror.js'),
   load.css('/node_modules/codemirror/lib/codemirror.css'),
-  load.css('/node_modules/codemirror/theme/monokai.css'),
+  load.css('/node_modules/code-mirror-themes/themes/monokai-sublime.css'),
   load.css('/src/style.css')
 ])
   .then(() => load.js('/node_modules/codemirror/mode/javascript/javascript.js'))
@@ -69,7 +69,7 @@ function init() {
       const editor = window.CodeMirror(document.body, {
         value: text,
         mode: 'javascript',
-        theme: 'monokai',
+        theme: 'monokai-sublime',
         lineNumbers: true,
         lineWrapping: true
       });
