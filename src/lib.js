@@ -66,11 +66,15 @@ function init() {
   Promise.all([load.js(src, 'module'), fetch(src)])
     .then(([emptyRes, response]) => response.text())
     .then(text => {
-      return window.CodeMirror(document.body, {
+      const editor = window.CodeMirror(document.body, {
         value: text,
         mode: 'javascript',
-        theme: 'monokai'
+        theme: 'monokai',
+        lineNumbers: true,
+        lineWrapping: true
       });
+
+      return setTimeout(() => editor.refresh(), 0);
     })
     .catch(console.error);
 }
