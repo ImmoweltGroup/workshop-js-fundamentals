@@ -1,6 +1,10 @@
 # @immowelt/workshop-js-fundamentals
 
 [![Powered by Immowelt](https://img.shields.io/badge/powered%20by-immowelt-yellow.svg?colorB=ffb200)](https://stackshare.io/immowelt-group/)
+[![Greenkeeper badge](https://badges.greenkeeper.io/ImmoweltGroup/workshop-js-fundamentals.svg)](https://greenkeeper.io/)
+[![Build Status](https://travis-ci.org/ImmoweltGroup/workshop-js-fundamentals.svg?branch=master)](https://travis-ci.org/ImmoweltGroup/workshop-js-fundamentals)
+[![Dependency Status](https://david-dm.org/ImmoweltGroup/workshop-js-fundamentals.svg)](https://david-dm.org/ImmoweltGroup/workshop-js-fundamentals)
+[![devDependency Status](https://david-dm.org/ImmoweltGroup/workshop-js-fundamentals/dev-status.svg)](https://david-dm.org/ImmoweltGroup/workshop-js-fundamentals#info=devDependencies&view=table)
 
 > The introduction workshop to get up and running in modern JavaScript development.
 
@@ -21,8 +25,10 @@ npm start
 This will clone the repository, install all dependencies and open the workshop examples in your Browser. Navigate to the `src/` folder in your opened Browser tab and start taking a look at all of the examples provided.
 **Note that we currently only support Google Chrome latest for this workshop.**
 
-## Slides
+## Additional documentation and information
 * [Slides in German](https://docs.google.com/presentation/d/1DbRa1Pqnb1ymTz5emddocwL_V8wqJHqK5hT-2khrmaQ/edit?usp=sharing)
+* [Official Flow docs](https://flow.org/en/docs/types/)
+* [Official Plow-JS docs](https://grebaldi.gitbooks.io/plow-js/)
 
 ## Contributing
 Please make sure that you adhere to our code style, you can validate your changes / PR by executing `npm run lint`.

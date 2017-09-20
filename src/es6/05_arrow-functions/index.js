@@ -44,3 +44,5 @@ class Foo {
 }
 
 const instance = new Foo();
+
+console.log(instance);
