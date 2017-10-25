@@ -31,8 +31,7 @@ This will clone the repository, install all dependencies and open the workshop e
 * [Official Plow-JS docs](https://grebaldi.gitbooks.io/plow-js/)
 
 ## Contributing
-Please make sure that you adhere to our code style, you can validate your changes / PR by executing `npm run lint`.
-Visit the [eslint-config-immowelt-react](https://github.com/ImmoweltGroup/eslint-config-immowelt-react) package for more information.
+See the `CONTRIBUTING.md` file at the root of the repository.
 
 ## Licensing
-See the LICENSE file at the root of the repository.
+See the `LICENSE` file at the root of the repository.
