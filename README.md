@@ -1,10 +1,10 @@
 # @immowelt/workshop-js-fundamentals
 
 [![Powered by Immowelt](https://img.shields.io/badge/powered%20by-immowelt-yellow.svg?colorB=ffb200)](https://stackshare.io/immowelt-group/)
-[![Greenkeeper badge](https://badges.greenkeeper.io/ImmoweltGroup/workshop-js-fundamentals.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/ImmoweltGroup/workshop-js-fundamentals.svg?branch=master)](https://travis-ci.org/ImmoweltGroup/workshop-js-fundamentals)
 [![Dependency Status](https://david-dm.org/ImmoweltGroup/workshop-js-fundamentals.svg)](https://david-dm.org/ImmoweltGroup/workshop-js-fundamentals)
 [![devDependency Status](https://david-dm.org/ImmoweltGroup/workshop-js-fundamentals/dev-status.svg)](https://david-dm.org/ImmoweltGroup/workshop-js-fundamentals#info=devDependencies&view=table)
+[![Renovate enabled](https://img.shields.io/badge/renovate-enabled-brightgreen.svg)](https://renovateapp.com/)
 
 > The introduction workshop to get up and running in modern JavaScript development.
 
