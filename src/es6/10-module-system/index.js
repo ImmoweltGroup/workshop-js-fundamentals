@@ -10,6 +10,11 @@
 //
 // `import foo from './constants.js'`
 //
+// or rename the imported module
+//
+// `import foo as bar from './constants.js'`
+//
+
 import * as constants from './constants.js';
 
 console.log(constants.foo);
