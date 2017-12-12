@@ -7,10 +7,19 @@ const lyrics = ['head', ...parts, 'and', 'toes']; // ["head", "shoulders", "knee
 console.log(lyrics);
 
 //
-// The position of of the spread defines the precedence over other values.
+// The position of the spread defines the precedence over other values.
 //
 const obj = {foo: 2};
 const result = {bar: 3, ...obj}; // {bar: 3, foo: 2}
 const result2 = {...obj, foo: 4}; // {foo: 4}
 
 console.log(result, result2);
+
+//
+// Use the spread syntax to pass all parameter to the super constructor.
+//
+class Foo extends Bar {
+  constructor(...rest) {
+    super(rest);
+  }
+}
