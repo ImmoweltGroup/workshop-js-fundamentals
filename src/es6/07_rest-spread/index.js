@@ -18,8 +18,16 @@ console.log(result, result2);
 //
 // Use the spread syntax to pass all parameter to the super constructor.
 //
+class Bar {
+  constructor(param1, param2) {
+    constole.log(param1, param2);
+  }
+}
+
 class Foo extends Bar {
   constructor(...rest) {
     super(rest);
   }
 }
+
+new Foo(1, 2); // 1 2
