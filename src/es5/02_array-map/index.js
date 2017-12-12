@@ -3,7 +3,7 @@
 // The return value of the callback function will be found in the new Array.
 //
 var objects = [{id: 0}, {id: 2}, {id: 6}];
-var objectIds = objects.map(function (obj) {
+var objectIds = objects.map(function(obj) {
   return obj.id;
 });
 

@@ -20,7 +20,7 @@ console.log(result, result2);
 //
 class Bar {
   constructor(param1, param2) {
-    constole.log(param1, param2);
+    console.log(param1, param2);
   }
 }
 
@@ -30,4 +30,5 @@ class Foo extends Bar {
   }
 }
 
-new Foo(1, 2); // 1 2
+// eslint-disable-next-line no-unused-vars
+const foo = new Foo(1, 2); // 1 2

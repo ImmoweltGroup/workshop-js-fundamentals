@@ -4,7 +4,7 @@
 //
 var objects = [{id: 0}, {id: 2}, {id: 6}, {id: 2}];
 var initialValue = [];
-var objectIds = objects.reduce(function (value, obj) {
+var objectIds = objects.reduce(function(value, obj) {
   var id = obj.id;
 
   if (value.includes(id) === false) {
