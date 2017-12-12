@@ -1,6 +1,3 @@
-//
-// While `var` and `let` are overridable, `const` as the same suggests is a constant and therefore not overridable.
-//
 const myConst = 2 * 2;
 const myStr = `This string is a template literal, which means it can interpolate variables like this ${myConst}.
 
