@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "code-mirror-themes": "1.0.0",
-    "codemirror": "5.32.0",
+    "codemirror": "5.33.0",
     "plow-js": "2.1.0",
     "serve": "6.4.3"
   }
