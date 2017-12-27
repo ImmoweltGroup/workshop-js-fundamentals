@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "@immowelt/babel-preset-immowelt": "1.0.4",
-    "@immowelt/eslint-config-immowelt-react": "2.0.2",
+    "@immowelt/eslint-config-immowelt-react": "2.0.3",
     "@immowelt/styleguide-javascript": "1.0.11",
     "eslint": "4.13.1",
     "flow-bin": "0.61.0",
