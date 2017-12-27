@@ -18,8 +18,8 @@
 git clone https://github.com/ImmoweltGroup/workshop-js-fundamentals.git
 cd workshop-js-fundamentals
 nvm install
-npm install
-npm start
+yarn install
+yarn start
 ```
 
 This will clone the repository, install all dependencies and open the workshop examples in your Browser. Navigate to the `src/` folder in your opened Browser tab and start taking a look at all of the examples provided.
