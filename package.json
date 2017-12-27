@@ -7,14 +7,14 @@
   "description": "A living workshop around modern JavaScript and Flow with playground samples for the attendees.",
   "scripts": {
     "start": "serve . --open --clipless",
-    "test": "npm run lint",
+    "test": "yarn run lint",
     "prettier": "prettier --write 'src/**/*.{js,json}'",
     "precommit": "lint-staged",
     "lint": "eslint src",
     "flow": "flow",
     "flow-typed": "flow-typed",
     "flow-typed-install": "flow-typed install --ignoreDeps=bundled peer --overwrite",
-    "prepare": "npm run flow-typed-install || true"
+    "prepare": "yarn run flow-typed-install || true"
   },
   "lint-staged": {
     "src/**/*.{js,json,css}": [
@@ -23,8 +23,7 @@
     ]
   },
   "engines": {
-    "node": ">=8.4.0",
-    "npm": ">=5.3.0"
+    "node": ">=8.4.0"
   },
   "devDependencies": {
     "@immowelt/babel-preset-immowelt": "1.0.4",

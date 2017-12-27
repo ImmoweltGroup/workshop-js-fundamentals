@@ -15,17 +15,17 @@ git clone https://github.com/your-username/workshop-js-fundamentals.git
 ### Testing, Type-Checking with Flow and Linting
 To run the tests:
 ```
-npm run test
+yarn run test
 ```
 
 To perform linting with `eslint`, run the following:
 ```
-npm run lint
+yarn run lint
 ```
 
 To perform a single check of the types with `flow`, run the following:
 ```
-npm run flow
+yarn run flow
 ```
 
 ### New Features
