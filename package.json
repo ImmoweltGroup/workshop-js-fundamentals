@@ -35,7 +35,7 @@
     "husky": "0.14.3",
     "lint-staged": "6.0.0",
     "opn-cli": "3.1.0",
-    "prettier": "1.9.2"
+    "prettier": "1.10.1"
   },
   "dependencies": {
     "code-mirror-themes": "1.0.0",
