@@ -2759,9 +2759,9 @@ send@0.16.2:
     range-parser "~1.2.0"
     statuses "~1.4.0"
 
-serve@6.5.0:
-  version "6.5.0"
-  resolved "https://registry.yarnpkg.com/serve/-/serve-6.5.0.tgz#54a774e5e54d847a8d18f7086b6e68545c405c29"
+serve@6.5.1:
+  version "6.5.1"
+  resolved "https://registry.yarnpkg.com/serve/-/serve-6.5.1.tgz#ca5a4fde7191dd0463f95a924ea37bb8467c8349"
   dependencies:
     "@zeit/check-updates" "1.1.0"
     args "3.0.8"
