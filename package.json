@@ -41,6 +41,6 @@
     "code-mirror-themes": "1.0.0",
     "codemirror": "5.37.0",
     "plow-js": "2.1.0",
-    "serve": "6.5.5"
+    "serve": "6.5.6"
   }
 }
