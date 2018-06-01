@@ -656,6 +656,10 @@ contains-path@^0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/contains-path/-/contains-path-0.1.0.tgz#fe8cf184ff6670b6baef01a9d4861a5cbec4120a"
 
+content-disposition@0.5.2:
+  version "0.5.2"
+  resolved "https://registry.yarnpkg.com/content-disposition/-/content-disposition-0.5.2.tgz#0cf68bb9ddf5f2be7961c3a85178cb85dba78cb4"
+
 core-js@^1.0.0:
   version "1.2.7"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-1.2.7.tgz#652294c14651db28fa93bd2d5ff2983a4f08c636"
@@ -2375,11 +2379,12 @@ semver@^5.4.1, semver@^5.5.0:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
 
-serve-handler@2.3.16:
-  version "2.3.16"
-  resolved "https://registry.yarnpkg.com/serve-handler/-/serve-handler-2.3.16.tgz#f3fba856a9dde0b4a685f39287d8eb14a35037fa"
+serve-handler@2.4.0:
+  version "2.4.0"
+  resolved "https://registry.yarnpkg.com/serve-handler/-/serve-handler-2.4.0.tgz#8442efc4a0e76e7f8b2131a6fc1dde2a5e797d6d"
   dependencies:
     bytes "3.0.0"
+    content-disposition "0.5.2"
     fast-url-parser "1.1.3"
     glob-slasher "1.0.1"
     mime-types "2.1.18"
@@ -2387,15 +2392,15 @@ serve-handler@2.3.16:
     path-is-inside "1.0.2"
     path-to-regexp "2.2.1"
 
-serve@7.1.6:
-  version "7.1.6"
-  resolved "https://registry.yarnpkg.com/serve/-/serve-7.1.6.tgz#67b314ec5a69ca93c3a89bd9e033cb09d63db0cd"
+serve@7.2.0:
+  version "7.2.0"
+  resolved "https://registry.yarnpkg.com/serve/-/serve-7.2.0.tgz#57cdaffa94daf09f028383350320d4d74390fb88"
   dependencies:
     "@zeit/schemas" "1.1.2"
     ajv "6.5.0"
     arg "2.0.0"
     chalk "2.4.1"
-    serve-handler "2.3.16"
+    serve-handler "2.4.0"
     update-check "1.5.2"
 
 set-blocking@^2.0.0:
